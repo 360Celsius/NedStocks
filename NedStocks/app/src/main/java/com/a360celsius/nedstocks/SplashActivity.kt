@@ -1,9 +1,9 @@
 package com.a360celsius.nedstocks
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.a360celsius.nedstocks.base.BaseActivity
 
-class SplashActivity : AppCompatActivity() {
+class SplashActivity : BaseActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
